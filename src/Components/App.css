@@ -1,0 +1,133 @@
+html,
+body {
+  height: 100%;
+  background-color: #FEF9EA;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App {
+  height: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  font-size: calc(10px + 2vmin);
+  color: black;
+  padding: 1% 2%;
+}
+
+.App-header span {
+  font-size: 24px;
+  text-align: center;
+  width: 75%;
+  font-weight: 600;
+  margin: auto;
+}
+
+.App-header img {
+  width: 100px;
+  height: 100px;
+}
+
+.App-content {
+  padding: 0px 10%;
+}
+
+.App-content p {
+  font-size: 14px;
+  color: #333;
+  line-height: 0;
+  margin: 0;
+}
+
+.App-content h6 {
+  color: #333;
+  font-size: 14px;
+  text-align: justify;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.App-content span {
+  color: red;
+  font-size: 12px;
+  line-height: 2;
+}
+
+.App-btn-control {
+  margin-bottom: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.MuiAlert-root {
+  min-height: 300px;
+}
+
+.MuiAlert-message {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 800px) {
+  .App-header span {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .App-header img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .App-header span {
+    font-size: 14px;
+  }
+
+  .App-content h6 {
+    font-size: 12px;
+  }
+
+  .App-content p {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .App-header span {
+    font-size: 9px;
+  }
+
+  .App-content h6 {
+    font-size: 9px;
+  }
+
+  .App-content p {
+    font-size: 7px;
+  }
+}
